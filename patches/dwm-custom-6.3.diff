@@ -1,0 +1,25 @@
+From f6ff38b9d51e4e7f2755ec7527d332795502d556 Mon Sep 17 00:00:00 2001
+From: Ryan Cargan <ryancargan@gmail.com>
+Date: Mon, 27 Jun 2022 08:59:59 +0530
+Subject: [PATCH] Modify
+
+---
+ config.def.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/config.def.h b/config.def.h
+index a2ac963..7c1d880 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -45,7 +45,7 @@ static const Layout layouts[] = {
+ };
+ 
+ /* key definitions */
+-#define MODKEY Mod1Mask
++#define MODKEY Mod4Mask
+ #define TAGKEYS(KEY,TAG) \
+ 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
+ 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
+-- 
+2.36.0
+
